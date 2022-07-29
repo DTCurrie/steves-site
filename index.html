@@ -1,0 +1,65 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Steve's Site</title>
+    <meta name="description" content="The best website according to Steve">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+
+    <style>
+        blink {
+            -webkit-animation: 2s linear infinite condemned_blink_effect;
+            /* for Safari 4.0 - 8.0 */
+            animation: 2s linear infinite condemned_blink_effect;
+        }
+
+        /* for Safari 4.0 - 8.0 */
+        @-webkit-keyframes condemned_blink_effect {
+            0% {
+                visibility: hidden;
+            }
+
+            50% {
+                visibility: hidden;
+            }
+
+            100% {
+                visibility: visible;
+            }
+        }
+
+        @keyframes condemned_blink_effect {
+            0% {
+                visibility: hidden;
+            }
+
+            50% {
+                visibility: hidden;
+            }
+
+            100% {
+                visibility: visible;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: #000000; color: red;">
+
+    <marquee>
+        <blink>
+            <h1>Steve's Site</h1>
+        </blink>
+    </marquee>
+
+    <h2>According to Steve ...</h2>
+
+    <p>
+        According to Steve this is the best website. Look upon it and bask in its glory.
+    </p>
+
+</body>
+
+</html>
